@@ -80,3 +80,68 @@
 # ind = Data.index("TECHNO")
 
 # print("Index No. of 'TECHNO' ", ind)
+
+#ex12 isalpha()
+# data = "jasvant girase"
+# print(data.isalpha())
+
+# ex13 
+# data = "12345"
+# print(data.isdigit())
+
+#ex14
+# data = "jasvant123"
+# print(data.isalnum())
+
+#ex15 task:check whether string contain alphabet or number
+# data = input("Enter String: ")
+
+# if data.isalnum():
+#     print("Alphabet or Number")
+# else:
+#     print("Not Alphabet or Number")
+
+
+#ex 16
+# Data = "TECHNO SCRIPTS"
+
+# print("Data is:", Data)
+
+# Res = Data.isupper()
+# print("\nResult of 'isupper' -->", Res)
+
+# Res2 = Data.islower()
+# print("Result of 'islower' -->", Res2)
+
+#ex17
+# Data = "Class Name Is Techno Scripts:"
+# print("Data is --> ", Data)
+
+# Res1 = Data.istitle()
+# print("\nResult of 'istitle' --> ", Res1)
+
+#ex 18
+# Data = "TECHNO"
+
+# Data = Data.center(35)
+
+# print("\nString After Update :")
+# print(Data)
+
+# Len = len(Data)
+# print("Length of Given String is:", Len)
+
+
+#ex 19
+# print("Enter Student Info".center(40))
+
+# Name = input("Enter Student Name: ")
+# Roll = int(input("Enter Student Roll No. : "))
+# Per = float(input("Enter Student Per : "))
+
+# print("\n")
+# print("Student Info".center(25))
+
+# print("Name: ", Name)
+# print("Roll No.: ", Roll)
+# print("Per: ", Per)

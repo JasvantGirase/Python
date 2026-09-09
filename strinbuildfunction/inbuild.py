@@ -145,3 +145,11 @@
 # print("Name: ", Name)
 # print("Roll No.: ", Roll)
 # print("Per: ", Per)
+
+
+
+#ex20
+# data="electronics"
+# print("data is",data)
+# print("string with ljust:",data.ljust(20))
+# print("string with rjust:",data.rjust(20))

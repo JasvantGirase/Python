@@ -152,3 +152,132 @@
 
 # print("\nLIST:")
 # print(LST)
+
+
+
+#ex14
+# L1=[99,22,45]
+# print(L1)
+# L2=[25,65,87]
+# print(L2)
+# L1=L2.copy()
+# print(L1)
+# print(L2)
+
+
+
+#ex15 
+#clear()
+# L1=[25,65,87]
+# print(L1)
+# L1.clear()
+# print(L1)
+
+
+
+#ex16
+#count()
+# LIST=[1,2,3,4,4,4,5,6]
+# c_1=LIST.count(1)
+# c_4=LIST.count(4)
+# print("count of 1 is",c_1)
+# print("count of 4 is",c_4)
+
+
+
+
+#ex17
+#index()
+# LIST=[1,2,3,4,5,6]
+# ind_1=LIST.index(1)
+# ind_4=LIST.index(4)
+# print("index of 1 is",ind_1)
+# print("index of 4 is",ind_4)
+
+
+
+#ex18
+# LIST=[1,2,3,4,5,6]
+# length=len(LIST)
+# print("length of list is",length)
+
+
+
+#ex19
+#Max and Min
+# LIST=[20,40,50,80,90]
+# MAX=max(LIST)
+# MIN=min(LIST)
+# print(MAX)
+# print(MIN)
+
+#ex20
+#HOW TO ACCEPT A LIST FROM USER(METHOD 1ST)
+# LIST=list(input("enter list:"))
+# print(LIST)
+# print("Length is LIST",len(LIST))
+
+
+
+
+#ex21
+#HOW TO ACCEPT A LIST FROM USER(METHOD 2ST)
+
+# LIST=[]
+# n1=int(input("enter 1 integer value:"))
+# LIST.append(n1)
+
+# s=(input("enter 1 string value:"))
+# LIST.append(s)
+
+# f=float(input("enter 1 float value:"))
+# LIST.append(f)
+
+# print(LIST)
+
+
+#ex22
+#HOW TO ACCEPT A LIST FROM USER(METHOD 3ST)
+# import ast
+
+# LST = input("Enter LIST in String Format: ")
+
+# # Example input: [12, "PUNE@", 61, 65.56]
+
+# print("Data Type of LST -->", type(LST))
+
+# LST = ast.literal_eval(LST)
+
+# print("\nUSER LIST IS -->")
+# print(LST)
+
+# print("Length of LIST -->", len(LST))
+# print("Data Type of LST -->", type(LST))
+
+
+
+#ex23
+#LIST INSIDE LIST
+# LIST=[45,"jasvant",[12,13],[565,82,98,[56,82,10]]]
+# print(LIST[3][0])
+# print(LIST[3][3][0])
+
+
+
+#ex24
+# STUDENT = [
+#     ["JASVANT", 12, 93.77],
+#     ["VIVEK", 13, 92.99]
+# ]
+
+# print("Student 1 info:")
+
+# print("Name:", STUDENT[0][0])
+# print("Roll No:", STUDENT[0][1])
+# print("Percentage:", STUDENT[0][2])
+
+# print("Student 2 info:")
+
+# print("Name:", STUDENT[1][0])
+# print("Roll No:", STUDENT[1][1])
+# print("Percentage:", STUDENT[1][2])
